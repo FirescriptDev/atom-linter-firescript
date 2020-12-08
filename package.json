@@ -1,0 +1,77 @@
+{
+  "name": "linter-firescript",
+  "version": "0.0.0",
+  "private": true,
+  "description": "A plugin for Atom Linter providing an interface to firescript",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NonameMedia/atom-linter-firescript"
+  },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "scripts": {
+    "test": "apm test",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "firescript",
+    "fire",
+    "firelint"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NonameMedia/atom-linter-firescript/issues"
+  },
+  "homepage": "https://github.com/NonameMedia/atom-linter-firescript#readme",
+  "dependencies": {
+    "atom-package-deps": "^7.0.3",
+    "firescript-linter": "^0.6.5",
+    "firescript-parser": "^0.5.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.15.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  },
+  "eslintConfig": {
+    "rules": {
+      "comma-dangle": [
+        "error",
+        "never"
+      ],
+      "global-require": "off",
+      "import/no-unresolved": [
+        "error",
+        {
+          "ignore": [
+            "atom"
+          ]
+        }
+      ]
+    },
+    "extends": "airbnb-base",
+    "globals": {
+      "atom": true
+    },
+    "env": {
+      "node": true
+    }
+  },
+  "package-deps": [
+    "linter:2.0.0"
+  ],
+  "renovate": {
+    "extends": [
+      "config:base"
+    ]
+  },
+  "providedServices": {
+    "linter": {
+      "versions": {
+        "2.0.0": "provideLinter"
+      }
+    }
+  }
+}

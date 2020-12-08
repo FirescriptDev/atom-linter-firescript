@@ -1,0 +1,9 @@
+export class Banana
+  constructor ()
+    this.name = 'Banana'
+
+  getFruit ()
+    return this.name
+
+  setFruit (value)
+    name = value
