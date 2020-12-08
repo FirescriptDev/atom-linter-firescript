@@ -6,7 +6,7 @@
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/NonameMedia/atom-linter-firescript"
+    "url": "git@github.com:NonameMedia/atom-linter-firescript.git"
   },
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
