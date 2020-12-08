@@ -6,7 +6,7 @@
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "git@github.com:NonameMedia/atom-linter-firescript.git"
+    "url": "git@github.com:FirescriptDev/atom-linter-firescript.git"
   },
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
@@ -21,9 +21,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/NonameMedia/atom-linter-firescript/issues"
+    "url": "https://github.com/FirescriptDev/atom-linter-firescript/issues"
   },
-  "homepage": "https://github.com/NonameMedia/atom-linter-firescript#readme",
+  "homepage": "https://github.com/FirescriptDev/atom-linter-firescript#readme",
   "dependencies": {
     "atom-package-deps": "^7.0.3",
     "firescript-linter": "^0.6.5",
