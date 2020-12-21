@@ -26,11 +26,11 @@
   "homepage": "https://github.com/FirescriptDev/atom-linter-firescript#readme",
   "dependencies": {
     "atom-package-deps": "^7.0.3",
-    "firescript-linter": "^0.6.6",
+    "firescript-linter": "^0.8.0",
     "firescript-parser": "^0.5.3"
   },
   "devDependencies": {
-    "eslint": "^7.15.0",
+    "eslint": "^7.16.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.22.1"
   },
