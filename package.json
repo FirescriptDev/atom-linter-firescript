@@ -25,9 +25,9 @@
   },
   "homepage": "https://github.com/FirescriptDev/atom-linter-firescript#readme",
   "dependencies": {
-    "atom-package-deps": "^7.2.3",
+    "atom-package-deps": "5.1.0",
     "firescript-linter": "^0.11.2",
-    "firescript-parser": "^0.8.6",
+    "firescript-parser": "^0.8.7",
     "firescript-runtime": "^0.3.12"
   },
   "devDependencies": {
