@@ -25,15 +25,15 @@
   },
   "homepage": "https://github.com/FirescriptDev/atom-linter-firescript#readme",
   "dependencies": {
-    "atom-package-deps": "5.1.0",
-    "firescript-linter": "^0.11.2",
-    "firescript-parser": "^0.8.7",
-    "firescript-runtime": "^0.3.12"
+    "atom-package-deps": "^8.0.0",
+    "firescript-linter": "^0.14.1",
+    "firescript-parser": "^0.11.2",
+    "firescript-runtime": "^0.3.13"
   },
   "devDependencies": {
-    "eslint": "^7.30.0",
-    "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.23.4"
+    "eslint": "^8.10.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4"
   },
   "eslintConfig": {
     "rules": {
@@ -59,14 +59,17 @@
       "node": true
     }
   },
-  "package-deps": [
-    "linter:2.0.0"
-  ],
   "renovate": {
     "extends": [
       "config:base"
     ]
   },
+  "package-deps": [
+    {
+      "name": "linter",
+      "minimumVersion": "3.3.0"
+    }
+  ],
   "providedServices": {
     "linter": {
       "versions": {
